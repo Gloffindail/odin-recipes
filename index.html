@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Mikhail's First Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>ODIN RECIPES</h1>
-    <img src="./pic/cooking.gif">
-    <h2> Spanish food</h2>
-    <img src="./pic/spanish-food.jpg">
-    <ul>
-        <li><a href="./recipes/paella-valenciana.html" target="_blank">Paella Valenciana</a></li>
-        <li><a href="./recipes/pasta.html" target="_blank"> Pasta</a></li>
-        <li><a href="./recipes/sangria.html" target="_blank">Sangria</a></li>
-    </ul>
+    <container> 
+        <h1>ODIN RECIPES</h1>
+        <img class="intropic" src="./pic/cooking.gif" alt="rice cooked on pan" />
+    </container>
+
+    <container class="maincontainer">
+        <h2>Spanish food <img class="flagpic" src="./pic/flag.png"></h2>
+        <img class="iconpic" src="./pic/spanish-food.jpg">
+    </container>
+    
+    <container class="listof">
+        <ul>
+            <li>
+                <form action="./recipes/paella-valenciana.html" target="_blank">
+                <button class="odd">Paella Valenciana</button></form>
+            </li>
+            
+            <li>
+                <form action="./recipes/pasta.html" target="_blank">
+                <button class="even">Pasta</button></form>
+            </li>
+
+            <li>
+                <form action="./recipes/sangria.html" target="_blank">
+                <button class="odd">Sangria</button></form>
+            </li>
+        </ul>
+    </container>
+
 </body>
 </html>
