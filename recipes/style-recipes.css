@@ -1,6 +1,9 @@
 
 * {
     background-color: bisque;
+   
+    margin: 0;
+    padding-left: 0;
 }
 
 h1 {
@@ -15,36 +18,35 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-
-.flagpic {
-    width: 55px;
-}
-
-.iconpic {
-    width: 350px;
-    height: square;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 50px;
 }
 
-.listof {
-    font-size: 30px;
-    font-style: normal;
+.maincontainer {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
 }
 
-button {
+p,
+li {
     font-size: 20px;
-    width: 250px;
 }
 
-.odd {
-    background-color: red;
-    color: white;
-}
+.homebutton {
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 20px auto;
+    font: normal 17px arial;
 
-.even {
-    background-color: rgb(245, 245, 11);
 }
