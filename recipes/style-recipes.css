@@ -1,7 +1,6 @@
 
 * {
     background-color: bisque;
-   
     margin: 0;
     padding-left: 0;
 }
@@ -31,6 +30,20 @@ h2 {
     margin-right: auto;
     display: block;
     margin-bottom: 20px;
+}
+
+.maincontainerflex {
+    display: flex;
+    /*justify-content: space-between;*/
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.maincontainerflex1,
+.maincontainerflex2 {
+    display: block;
+    flex: 1 1 0;
+    padding: 5%;
 }
 
 p,

@@ -4,7 +4,11 @@
     width: auto;
     margin: auto;
     
-    <!--border: 2px solid red;-->
+    <!--border: 2px solid blue;>>
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
@@ -19,38 +23,61 @@ h1 {
 }
 
 .intropic {
-    width: 750px;
+    max-width: 750px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     margin-bottom: 20px;
 }
 
-.flagpic {
-    width: 55px;
-    
+.iconpic {
+    max-width: 350px;
+    height: square;
 }
 
-.iconpic {
-    width: 350px;
-    height: square;
-    }
+.box {
+    max-width: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+    border: 2px solid red;
+    background-color: aliceblue;
+    display: inline-block;
+}
 
 h2 {
     font-size: 50px;
     padding-bottom: 5px;
+    background-color: aliceblue;
+}
+
+.flagpic {
+    width: 55px;
 }
 
 .listof {
     font-size: 30px;
     font-style: normal;
-    
-    text-align: left;
+    text-align: center;
+    list-style-position:initial;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+ul {
+    background-color: aliceblue;
+}
+
+li {
+    background-color: aliceblue;
 }
 
 button {
     font-size: 20px;
     width: 250px;
+    background-color: aliceblue;
+    padding: 0%;
 }
 
 .odd {
@@ -61,3 +88,4 @@ button {
 .even {
     background-color: rgb(245, 245, 11);
 }
+
